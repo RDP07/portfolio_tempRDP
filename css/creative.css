@@ -117,11 +117,11 @@ aside {
   left: 0;
   right: 0;
   bottom: 0;
-  background: gray;
+  background: black;
 }
 .bio-pic  {
   border-radius: 100%;
-  width: 75%;
+  width: 50%;
 }
 @media (min-width: 768px) {
   .navbar-default {
