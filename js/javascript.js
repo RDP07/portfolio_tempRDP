@@ -25,8 +25,7 @@ app.ui = {
         }
         particlesJS('particles-js', {
             particles: {
-                color: '#FFFFFF',
-                color_random: false,
+                color_random: true,
                 shape: 'circle', // "circle", "edge" or "triangle"
                 opacity: {
                     opacity: 1,
@@ -37,7 +36,7 @@ app.ui = {
                         sync: false
                     }
                 },
-                size: 2,
+                size: 3,
                 size_random: true,
                 nb: nb,
                 line_linked: {
