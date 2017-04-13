@@ -119,10 +119,7 @@ aside {
   bottom: 0;
   background: black;
 }
-.bio-pic  {
-  border-radius: 100%;
-  width: 50%;
-}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -286,7 +283,7 @@ header .header-content .header-content-inner p {
 
   .bio-pic  {
   border-radius: 100%;
-  width: 100%;
+  width: 40%;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
