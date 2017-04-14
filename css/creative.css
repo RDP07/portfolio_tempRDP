@@ -12,24 +12,25 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: white;
-  border-width: 3px;
-  max-width: 45%;
+  border-color: #4f4f4f;
+  border-width: 2px;
+  max-width: 55%;
 }
 hr.light {
-  border-color: white;
+  border-color: rgba(79, 79, 79, 0.25);
 }
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #f235d5;
+  color: #ff1e1e;
 }
 
 
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #ff1e1e;
 }
 h1,
 h2,
@@ -37,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 p {
   font-size: 16px;
@@ -45,10 +46,6 @@ p {
   margin-bottom: 20px;
 }
 
-.bg-dark {
-  background-color: #222222;
-  color: white;
-}
 .text-faded {
   color: rgba(255, 255, 255, 0.85);
   text-shadow: 1px 1px rgba(0, 16, 255, 1);
@@ -65,14 +62,14 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #f235d5;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive;
   font-weight: 700;
   font-size: 30px;
   
@@ -233,7 +230,10 @@ header .header-content .header-content-inner a:hover {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 36px;
+    text-align: right;
+    margin-right: 15%;
+    line-height: 2em;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
@@ -242,6 +242,51 @@ header .header-content .header-content-inner a:hover {
     margin-right: auto;
   }
 }
+
+@media (max-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    padding: 37% 5px 0 5px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 16px;
+    text-align: right;
+    line-height: 2em;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 13px;
+    max-width: 100%;
+  }
+  header .header-content .header-content-inner a {
+    font-size: 350%;
+  }
+  .navbar-default {
+    background-color: rgba(135, 135, 135, 0.75)
+  }
+  .navbar-default a {
+    text-shadow: 1px 1px white;
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    font-size: 20px;
+    justify-content: center;
+    padding-bottom: 0;
+    color: rgba(0, 16, 255, 1);
+    text-shadow: 1px 1px black;
+  }
+  .navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 13px;
+    text-shadow: 1px 1px white;
+  }
+}
+
 .section-heading {
   margin-top: 0;
   color:white;
@@ -289,7 +334,7 @@ header .header-content .header-content-inner a:hover {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -421,7 +466,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive;
   border: none;
   border-radius: 300px;
   font-weight: 700;
