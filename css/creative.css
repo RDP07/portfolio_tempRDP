@@ -23,7 +23,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #f235d5;
 }
 
 
@@ -70,7 +70,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: #f235d5;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   
@@ -94,7 +94,7 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: green;
+  color: #f235d5;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -121,7 +121,7 @@ aside {
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.9);
   }
   .navbar-default .navbar-header .navbar-brand {
     color: black;
@@ -140,11 +140,11 @@ aside {
     color: white;
   }
   .navbar-default.affix {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #f235d5;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -158,7 +158,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #f235d5;
   }
 }
 header {
@@ -223,6 +223,7 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
   margin-top: 0;
+  color:white;
 }
 
 .service-box {
@@ -247,7 +248,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: #f235d5;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -300,7 +301,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: white;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -356,8 +357,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #f235d5;
+  border-color: #f235d5;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -395,11 +396,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #f235d5;
+  border-color: #f235d5;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: #f235d5;
   background-color: white;
 }
 .btn {
