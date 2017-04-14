@@ -51,6 +51,7 @@ p {
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.85);
+  text-shadow: 1px 1px rgba(0, 16, 255, 1);
 }
 section {
   padding: 100px 0;
@@ -73,15 +74,16 @@ aside {
   color: #f235d5;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
+  font-size: 30px;
   
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #222222;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 20px;
   color: #222222;
   text-transform: uppercase;
 }
@@ -89,7 +91,7 @@ aside {
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 16px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -124,7 +126,7 @@ aside {
     border-color: rgba(255, 255, 255, 0.9);
   }
   .navbar-default .navbar-header .navbar-brand {
-    color: black;
+    color: #33F9FF;
     text-shadow: 2px 2px #f235d5;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
@@ -145,16 +147,18 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #f235d5;
-    font-size: 14px;
+    text-shadow: 2px 2px #33F9FF;
+    font-size: 24px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: black;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
     color: black;
     text-shadow: 0.5px 0.5px #33F9FF;
+    font-size: 14px;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -263,9 +267,10 @@ header .header-content .header-content-inner a:hover {
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
+  text-shadow: 1px 1px rgba(0, 16, 255, 1);
   opacity: 0;
   display: block;
-  background: #f235d5;
+  background: rgba(225, 73, 252, 0.5);
   position: absolute;
   bottom: 0;
   text-align: center;
