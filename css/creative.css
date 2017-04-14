@@ -212,9 +212,12 @@ header .header-content .header-content-inner a:hover {
   border-radius: 8px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 470px) and (max-width: 765px){
   header {
     min-height: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
   header .header-content {
     position: absolute;
@@ -225,9 +228,7 @@ header .header-content .header-content-inner a:hover {
     padding: 0 50px;
   }
   header .header-content .header-content-inner {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    
   }
   header .header-content .header-content-inner h1 {
     font-size: 36px;
@@ -259,6 +260,7 @@ header .header-content .header-content-inner a:hover {
     font-size: 16px;
     text-align: right;
     line-height: 2em;
+    padding-left: 1%;
   }
   header .header-content .header-content-inner p {
     font-size: 13px;
