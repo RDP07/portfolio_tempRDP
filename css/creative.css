@@ -24,13 +24,15 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #ff1e1e;
+  color: gray;
+  text-shadow: 1.5px 1px #33F9FF;
 }
 
 
 a:hover,
 a:focus {
-  color: #ff1e1e;
+  color: #33F9FF;
+  text-shadow: none;
 }
 h1,
 h2,
@@ -93,7 +95,7 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #f235d5;
+  color: #33F9FF;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
@@ -159,7 +161,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #f235d5;
+    color: black;
   }
 }
 header {
@@ -167,7 +169,7 @@ header {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: white;
+  color: gray;
 
 }
 header .header-content {
@@ -182,7 +184,7 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
-  text-shadow: 2px 1px #f235d5
+  text-shadow: 0.5px 0.5px #f235d5;
 }
 
 header .header-content .header-content-inner hr {
@@ -190,17 +192,17 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: white;
+  color: gray;
   font-size: 16px;
   margin-bottom: 50px;
-  text-shadow: 1px 0.5px #f235d5
+  text-shadow: 0.5px 0.5px #33F9FF;
 }
 
 header .header-content .header-content-inner a {
   font-size: 600%;
   margin-right: 8%;
   margin-left: 8%;
-  color: white;
+  color: gray;
   text-shadow: 2px 2px #33F9FF;
   text-decoration: none;
 }
@@ -231,7 +233,7 @@ header .header-content .header-content-inner a:hover {
     
   }
   header .header-content .header-content-inner h1 {
-    font-size: 36px;
+    font-size: 30px;
     text-align: right;
     margin-right: 15%;
     line-height: 2em;
@@ -249,7 +251,7 @@ header .header-content .header-content-inner a:hover {
     min-height: 100%;
   }
   header .header-content {
-    padding: 37% 5px 0 5px;
+    padding: 37% 0 0 0;
   }
   header .header-content .header-content-inner {
     max-width: 100%;
@@ -257,41 +259,44 @@ header .header-content .header-content-inner a:hover {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 16px;
+    font-size: 15px;
     text-align: right;
     line-height: 2em;
-    padding-left: 1%;
+    padding-right: 15px;
   }
   header .header-content .header-content-inner p {
     font-size: 13px;
     max-width: 100%;
+    padding: 15px;
   }
   header .header-content .header-content-inner a {
-    font-size: 350%;
+    font-size: 525%;
+    padding: 0;
   }
   .navbar-default {
     background-color: rgba(135, 135, 135, 0.75)
   }
   .navbar-default a {
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px #f235d5;
   }
   .navbar-default .navbar-header .navbar-brand {
     font-size: 20px;
     justify-content: center;
     padding-bottom: 0;
-    color: rgba(0, 16, 255, 1);
-    text-shadow: 1px 1px black;
+    color: gray;
+    text-shadow: 1px 1px #33F9FF;
   }
   .navbar-default .navbar-header .navbar-toggle {
     font-weight: 700;
     font-size: 13px;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px #f235d5;
   }
 }
 
 .section-heading {
   margin-top: 0;
-  color:white;
+  color: gray;
+  text-shadow: 1px 1.5px #33F9FF;
 }
 
 .service-box {
@@ -365,7 +370,8 @@ header .header-content .header-content-inner a:hover {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: white;
+  color: gray;
+  text-shadow: 1px 1.5px #33F9FF;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
