@@ -307,11 +307,6 @@ header .header-content .header-content-inner a:hover {
   outline: none;
 }
 @media (min-width: 768px) {
-
-  .bio-pic  {
-  border-radius: 100%;
-  width: 40%;
-  }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
@@ -434,6 +429,11 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   padding: 15px 30px;
+}
+
+.bio-pic  {
+  border-radius: 100%;
+  width: 40%;
 }
 
 ::-moz-selection {
