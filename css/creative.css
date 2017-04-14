@@ -194,6 +194,23 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
   text-shadow: 1px 0.5px #f235d5
 }
+
+header .header-content .header-content-inner a {
+  font-size: 600%;
+  margin-right: 8%;
+  margin-left: 8%;
+  color: white;
+  text-shadow: 2px 2px #33F9FF;
+  text-decoration: none;
+}
+
+header .header-content .header-content-inner a:hover {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  text-shadow: 1px 0.5px black;
+  border-radius: 8px;
+}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -357,8 +374,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #f235d5;
-  border-color: #f235d5;
+  background-color: #33F9FF;
+  border-color: white;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -370,8 +387,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #f235d5;
+  border-color: white;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -413,6 +430,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   padding: 15px 30px;
 }
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
