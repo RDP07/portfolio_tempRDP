@@ -25,7 +25,7 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: gray;
-  text-shadow: 1.5px 1px #33F9FF;
+  text-shadow: 0.75px 0.75px #33F9FF;
 }
 
 
@@ -84,14 +84,13 @@ aside {
   font-weight: 700;
   font-size: 20px;
   color: #222222;
-  text-transform: uppercase;
+  
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-  color: #222222;
+  color: #33F9FF;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -99,8 +98,9 @@ aside {
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #f235d5 !important;
+  color: black !important;
   background-color: transparent;
+  text-transform: uppercase;
 }
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
@@ -130,15 +130,15 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
+    color: gray;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
-    color: white;
+    color: gray;
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: white;
+    color: gray;
   }
   .navbar-default.affix {
     background-color: rgba(255, 255, 255, 0.8);
@@ -184,7 +184,7 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
-  text-shadow: 0.5px 0.5px #f235d5;
+  text-shadow: 1px 1px #f235d5;
 }
 
 header .header-content .header-content-inner hr {
@@ -195,7 +195,7 @@ header .header-content .header-content-inner p {
   color: gray;
   font-size: 16px;
   margin-bottom: 50px;
-  text-shadow: 0.5px 0.5px #33F9FF;
+  text-shadow: 1px 1px #33F9FF;
 }
 
 header .header-content .header-content-inner .social-icon {
@@ -247,7 +247,7 @@ header .header-content .header-content-inner .social-icon:hover {
 }
 
 @media (max-width: 768px) {
-  header {
+  header, section {
     min-height: 100%;
   }
   header .header-content {
@@ -270,11 +270,12 @@ header .header-content .header-content-inner .social-icon:hover {
     padding: 15px;
   }
   header .header-content .header-content-inner .social-icon {
-    font-size: 525%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 0;
   }
   .navbar-default {
-    background-color: rgba(135, 135, 135, 0.75)
+    background-color: rgba(255, 255, 255, 1)
   }
   .navbar-default a {
     text-shadow: 1px 1px #f235d5;
@@ -290,6 +291,12 @@ header .header-content .header-content-inner .social-icon:hover {
     font-weight: 700;
     font-size: 13px;
     text-shadow: 1px 1px #f235d5;
+  }
+
+  #contact div p {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 15%;
   }
 }
 
