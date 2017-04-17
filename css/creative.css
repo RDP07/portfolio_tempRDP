@@ -169,7 +169,7 @@ header {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: gray;
+  color: white;
 
 }
 header .header-content {
@@ -192,7 +192,7 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: gray;
+  color: white;
   font-size: 16px;
   margin-bottom: 50px;
   text-shadow: 1px 1px #33F9FF;
@@ -380,7 +380,7 @@ header .header-content .header-content-inner .social-icon:hover {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: gray;
+  color: white;
   text-shadow: 1px 1.5px #33F9FF;
 }
 .no-gutter > [class*='col-'] {
