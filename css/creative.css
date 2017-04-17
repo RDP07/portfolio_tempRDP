@@ -259,10 +259,11 @@ header .header-content .header-content-inner .social-icon:hover {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 15px;
+    font-size: 13px;
     text-align: right;
     line-height: 2em;
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   header .header-content .header-content-inner p {
     font-size: 13px;
