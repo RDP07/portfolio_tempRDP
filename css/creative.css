@@ -374,6 +374,9 @@ header .header-content .header-content-inner .social-icon:hover {
   color: white;
   text-shadow: 0.5px 0.5px #33F9FF;
 }
+.text-center a {
+  color: white;
+}
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
