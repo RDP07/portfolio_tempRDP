@@ -305,6 +305,9 @@ header .header-content .header-content-inner .social-icon:hover {
     max-width: 100%;
     margin: 50px auto 0;
   }
+  .contact div a, .contact div i {
+  color: white;
+  }
 }
 @media (min-width: 992px) {
   .service-box {
@@ -490,7 +493,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   padding: 10px 20px;
 }
-
 
 
 ::-moz-selection {
