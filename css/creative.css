@@ -374,7 +374,7 @@ header .header-content .header-content-inner .social-icon:hover {
   color: white;
   text-shadow: 0.5px 0.5px #33F9FF;
 }
-#contact {
+.sr-contact {
   color: white;
 }
 .no-gutter > [class*='col-'] {
