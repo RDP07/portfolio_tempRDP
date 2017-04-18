@@ -98,17 +98,20 @@ aside {
 .navbar-default .nav > li > a:focus {
   font-weight: 700;
   font-size: 16px;
-  color: #33F9FF;
+  color: black;
+  text-shadow: 1px 1px #33F9FF;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #33F9FF;
+  color: black;
+  text-shadow: 5px 5px 2px #f235d5;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: black !important;
-  background-color: transparent;
-  text-transform: uppercase;
+  color: #f235d5 !important;
+  font-weight: 900;
+  font-size: 1.4em;
+  background-color: #33F9FF;
 }
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
