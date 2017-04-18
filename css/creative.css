@@ -27,6 +27,11 @@ a {
   color: gray;
   text-shadow: 0.75px 0.75px #33F9FF;
 }
+
+.contact div a {
+  color: white;
+}
+
 .bio-pic  {
   border-radius: 100%;
   width: 40%;
@@ -374,9 +379,7 @@ header .header-content .header-content-inner .social-icon:hover {
   color: white;
   text-shadow: 0.5px 0.5px #33F9FF;
 }
-.sr-contact {
-  color: white;
-}
+
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
