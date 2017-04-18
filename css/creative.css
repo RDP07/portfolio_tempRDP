@@ -276,7 +276,7 @@ header .header-content .header-content-inner .social-icon:hover {
   .section-heading {
     margin-top: 0;
     color: gray;
-    text-shadow: 1px 1.5px #33F9FF;
+    text-shadow: 1px 1px #33F9FF;
   }
 
   .service-box {
