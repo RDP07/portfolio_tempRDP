@@ -27,7 +27,10 @@ a {
   color: gray;
   text-shadow: 0.75px 0.75px #33F9FF;
 }
-
+.bio-pic  {
+  border-radius: 100%;
+  width: 40%;
+}
 
 a:hover,
 a:focus {
@@ -119,7 +122,8 @@ aside {
   background: black;
 }
 
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
   .navbar-default {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.9);
@@ -214,41 +218,11 @@ header .header-content .header-content-inner .social-icon:hover {
   border-radius: 8px;
 }
 
-@media (min-width: 470px) and (max-width: 765px){
-  header {
-    min-height: 100%;
-    max-width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  header .header-content {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 0 50px;
-  }
-  header .header-content .header-content-inner {
-    
-  }
-  header .header-content .header-content-inner h1 {
-    font-size: 30px;
-    text-align: right;
-    margin-right: 15%;
-    line-height: 2em;
-  }
-  header .header-content .header-content-inner p {
-    font-size: 18px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 @media (max-width: 768px) {
   header, section {
     min-height: 100%;
+    min-width: 100%;
   }
   header .header-content {
     padding: 37% 0 0 0;
@@ -264,7 +238,7 @@ header .header-content .header-content-inner .social-icon:hover {
     line-height: 2em;
     margin-top: 0;
     padding-top: 0;
-    position: relative;
+    padding-right: 15%;
   }
   header .header-content .header-content-inner p {
     font-size: 13px;
@@ -309,6 +283,24 @@ header .header-content .header-content-inner .social-icon:hover {
     max-width: 400px;
     margin: 50px auto 0;
   }
+}
+
+@media (max-width: 600px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 13.5px;
+    text-align: center;
+    padding: 0;
+  }
+  header .header-content .header-content-inner .social-icon {
+    font-size: 500%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .service-box {
+    max-width: 100%;
+    margin: 50px auto 0;
+  }
+}
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
@@ -490,13 +482,10 @@ fieldset[disabled] .btn-primary.active {
   text-transform: uppercase;
 }
 .btn-xl {
-  padding: 15px 30px;
+  padding: 10px 20px;
 }
 
-.bio-pic  {
-  border-radius: 100%;
-  width: 40%;
-}
+
 
 ::-moz-selection {
   color: white;
