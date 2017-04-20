@@ -32,11 +32,6 @@ a {
   color: white;
 }
 
-.bio-pic  {
-  border-radius: 100%;
-  width: 40%;
-}
-
 a:hover,
 a:focus {
   color: #33F9FF;
@@ -504,6 +499,10 @@ fieldset[disabled] .btn-primary.active {
   padding: 10px 20px;
 }
 
+.bio-pic img  {
+  border-radius: 100%;
+  width: 40%;
+}
 
 ::-moz-selection {
   color: white;
