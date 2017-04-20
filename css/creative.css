@@ -211,9 +211,9 @@ header .header-content .header-content-inner p {
 }
 
 header .header-content .header-content-inner .social-icon {
-  font-size: 600%;
-  margin-right: 8%;
-  margin-left: 8%;
+  font-size: 1000%;
+  margin-right: 5%;
+  margin-left: 5%;
   color: gray;
   text-shadow: 2px 2px #33F9FF;
   text-decoration: none;
@@ -254,8 +254,7 @@ header .header-content .header-content-inner .social-icon:hover {
     padding: 15px;
   }
   header .header-content .header-content-inner .social-icon {
-    margin-left: 5%;
-    margin-right: 5%;
+    font-size: 600%;
     padding: 0;
   }
   .navbar-default {
