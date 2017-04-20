@@ -324,8 +324,8 @@ header .header-content .header-content-inner .social-icon:hover {
 .portfolio-box {
   position: relative;
   display: block;
-  min-width: 320px;
-  height: 100%;
+  width: 100%;
+  height: 350px;
   margin: 0 auto;
   overflow: hidden;
 }
