@@ -3,19 +3,21 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
 }
+
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+
 hr {
   border-color: #4f4f4f;
   border-width: 2px;
   max-width: 55%;
 }
+
 hr.light {
   border-color: rgba(79, 79, 79, 0.25);
 }
@@ -30,6 +32,11 @@ a {
 
 .contact div a {
   color: white;
+}
+
+.bio-pic  {
+  border-radius: 100%;
+  width: 40%;
 }
 
 a:hover,
@@ -76,19 +83,20 @@ aside {
   color: #f235d5;
   font-family: 'Press Start 2P', cursive;
   font-weight: 700;
-  font-size: 30px;
-  
+  font-size: 30px;  
 }
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #222222;
 }
+
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 20px;
-  color: #222222;
-  
+  color: #222222;  
 }
+
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   font-weight: 700;
@@ -96,11 +104,13 @@ aside {
   color: black;
   text-shadow: 1px 1px #33F9FF;
 }
+
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: black;
   text-shadow: 5px 5px 2px #f235d5;
 }
+
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #f235d5 !important;
@@ -108,6 +118,7 @@ aside {
   font-size: 1.4em;
   background-color: #33F9FF;
 }
+
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
@@ -496,11 +507,6 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   padding: 10px 20px;
-}
-
-.bio-pic  {
-  border-radius: 100%;
-  width: 40%;
 }
 
 ::-moz-selection {
