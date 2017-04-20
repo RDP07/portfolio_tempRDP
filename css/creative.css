@@ -499,7 +499,7 @@ fieldset[disabled] .btn-primary.active {
   padding: 10px 20px;
 }
 
-.bio-pic img  {
+.bio-pic  {
   border-radius: 100%;
   width: 40%;
 }
