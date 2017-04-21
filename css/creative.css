@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 html, body {
   height: 100%;
   width: 100%;
@@ -53,7 +54,7 @@ h6 {
   font-family: 'Press Start 2P', cursive;
 }
 p {
-  font-size: 16px;
+  font-size: 120%;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -65,12 +66,16 @@ p {
 section {
   padding: 100px 0;
 }
+
 aside {
   padding: 50px 0;
 }
+
 .no-padding {
   padding: 0;
 }
+
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -83,7 +88,8 @@ aside {
   color: #f235d5;
   font-family: 'Press Start 2P', cursive;
   font-weight: 700;
-  font-size: 30px;  
+  padding-top: 1em;
+  font-size: 150%;  
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -93,14 +99,14 @@ aside {
 
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 120%;
   color: #222222;  
 }
 
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 125%;
   color: black;
   text-shadow: 1px 1px #33F9FF;
 }
@@ -115,7 +121,7 @@ aside {
 .navbar-default .nav > li.active > a:focus {
   color: #f235d5 !important;
   font-weight: 900;
-  font-size: 1.4em;
+  font-size: 150% !important;
   background-color: #33F9FF;
 }
 
@@ -136,72 +142,27 @@ aside {
   background: black;
 }
 
-
-@media (max-width: 768px) {
-  .navbar-default {
-    background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.9);
-  }
-  .navbar-default .navbar-header .navbar-brand {
-    color: #33F9FF;
-    text-shadow: 2px 2px #f235d5;
-  }
-  .navbar-default .navbar-header .navbar-brand:hover,
-  .navbar-default .navbar-header .navbar-brand:focus {
-    color: gray;
-  }
-  .navbar-default .nav > li > a,
-  .navbar-default .nav > li > a:focus {
-    color: gray;
-  }
-  .navbar-default .nav > li > a:hover,
-  .navbar-default .nav > li > a:focus:hover {
-    color: gray;
-  }
-  .navbar-default.affix {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-color: rgba(34, 34, 34, 0.05);
-  }
-  .navbar-default.affix .navbar-header .navbar-brand {
-    color: #f235d5;
-    text-shadow: 2px 2px #33F9FF;
-    font-size: 24px;
-  }
-  .navbar-default.affix .navbar-header .navbar-brand:hover,
-  .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: black;
-  }
-  .navbar-default.affix .nav > li > a,
-  .navbar-default.affix .nav > li > a:focus {
-    color: black;
-    text-shadow: 0.5px 0.5px #33F9FF;
-    font-size: 14px;
-  }
-  .navbar-default.affix .nav > li > a:hover,
-  .navbar-default.affix .nav > li > a:focus:hover {
-    color: black;
-  }
-}
 header {
   position: relative;
   width: 100%;
   min-height: auto;
   text-align: center;
   color: white;
-
 }
+
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
+
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-align: center;
-  margin-top: 0;
+  padding-top: 5%;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 220%;
   text-shadow: 1px 1px #f235d5;
 }
 
@@ -211,13 +172,13 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: white;
-  font-size: 16px;
+  font-size: 120%;
   margin-bottom: 50px;
   text-shadow: 1px 1px #33F9FF;
 }
 
 header .header-content .header-content-inner .social-icon {
-  font-size: 1000%;
+  font-size: 700%;
   margin-right: 5%;
   margin-left: 5%;
   color: gray;
@@ -232,98 +193,6 @@ header .header-content .header-content-inner .social-icon:hover {
   border-radius: 8px;
 }
 
-
-@media (max-width: 768px) {
-  header, section {
-    min-height: 100%;
-    min-width: 100%;
-  }
-  header .header-content {
-    padding: 37% 0 0 0;
-  }
-  header .header-content .header-content-inner {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  header .header-content .header-content-inner h1 {
-    font-size: 13px;
-    text-align: right;
-    line-height: 2em;
-    margin-top: 0;
-    padding-top: 0;
-    padding-right: 15%;
-  }
-  header .header-content .header-content-inner p {
-    font-size: 13px;
-    max-width: 100%;
-    padding: 15px;
-  }
-  header .header-content .header-content-inner .social-icon {
-    font-size: 600%;
-    padding: 0;
-  }
-  .navbar-default {
-    background-color: rgba(255, 255, 255, 1)
-  }
-  .navbar-default a {
-    text-shadow: 1px 1px #f235d5;
-  }
-  .navbar-default .navbar-header .navbar-brand {
-    font-size: 20px;
-    justify-content: center;
-    padding-bottom: 0;
-    color: gray;
-    text-shadow: 1px 1px #33F9FF;
-  }
-  .navbar-default .navbar-header .navbar-toggle {
-    font-weight: 700;
-    font-size: 13px;
-    text-shadow: 1px 1px #f235d5;
-  }
-
-  #contact div p {
-    margin-top: 0;
-    padding-top: 0;
-  }
-  .section-heading {
-    margin-top: 0;
-    color: gray;
-    text-shadow: 1px 1px #33F9FF;
-  }
-
-  .service-box {
-    max-width: 400px;
-    margin: 50px auto 0;
-  }
-}
-
-@media (max-width: 600px) {
-  header .header-content .header-content-inner h1 {
-    font-size: 13.5px;
-    text-align: center;
-    padding: 0;
-  }
-  header .header-content .header-content-inner .social-icon {
-    font-size: 500%;
-    margin-right: 5%;
-    margin-left: 5%;
-  }
-  .service-box {
-    max-width: 100%;
-    margin: 50px auto 0;
-  }
-  #contact div p, .sr-contact {
-    color: gray;
-    text-shadow: 1px 1px #f235d5;
-  }
-}
-@media (min-width: 992px) {
-  .service-box {
-    margin: 20px auto 0;
-  }
-}
-
 .service-box p {
   margin-bottom: 0;
 }
@@ -332,7 +201,7 @@ header .header-content .header-content-inner .social-icon:hover {
   position: relative;
   display: block;
   width: 100%;
-  max-height: 225px;
+  height: 260px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -371,10 +240,10 @@ header .header-content .header-content-inner .social-icon:hover {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 90%;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 100%;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -382,14 +251,9 @@ header .header-content .header-content-inner .social-icon:hover {
 .portfolio-box:focus {
   outline: none;
 }
-@media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
-  }
-}
+
+
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
@@ -529,4 +393,155 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+@media (max-width: 609px) {
+  header .header-content .header-content-inner h1 {
+    padding-top: 10%;
+    font-size: 100%;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 90%;
+  }
+  header .header-content .header-content-inner .social-icon {
+    font-size: 500%;
+  }
+  .portfolio-box {
+    max-height: 200px;
+  }
+}
+
+@media (min-width: 610px) and (max-width: 738px) {
+  header .header-content .header-content-inner h1 {
+    padding-top: 10%;
+    font-size: 180%;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 110%;
+  }
+}
+
+@media (min-width: 700px) {
+  .service-box {
+    max-width: 100%;
+    margin: 50px auto 0;
+  }
+  #contact div p, .sr-contact {
+    color: gray;
+    text-shadow: 1px 1px #f235d5;
+  }
+  .portfolio-box {
+    max-height: 250px;
+  }
+}
+
+@media (min-width: 767px) {
+  .navbar-default {
+    background-color: rgba(255, 255, 255, 1)
+  }
+
+  .navbar-default a {
+    text-shadow: 1px 1px #f235d5;
+  }
+
+  .navbar-default .navbar-header .navbar-brand {
+    font-size: 20px;
+    justify-content: center;
+    padding-bottom: 0;
+    color: gray;
+    text-shadow: 1px 1px #33F9FF;
+  }
+
+  .navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 13px;
+    text-shadow: 1px 1px #f235d5;
+  }
+
+  #contact div p {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .section-heading {
+    margin-top: 0;
+    color: gray;
+    text-shadow: 1px 1px #33F9FF;
+  }
+
+  .service-box {
+    max-width: 400px;
+    margin: 50px auto 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.9);
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: #33F9FF;
+    text-shadow: 2px 2px #f235d5;
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: #f235d5;
+    text-shadow: 2px 2px #33F9FF;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: gray;
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: rgba(34, 34, 34, 0.05);
+  }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #f235d5;
+    text-shadow: 2px 2px #33F9FF;
+    font-size: 120%;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: black;
+  }
+
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: black;
+    text-shadow: 0.5px 0.5px #33F9FF;
+    font-size: 120%;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: black;
+    font-size: 150%;
+  }
+
+  .portfolio-box {
+    max-height: 240px;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+   .service-box {
+    margin: 20px auto 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+   .portfolio-box {
+    max-height: 300px;
+  }
 }
