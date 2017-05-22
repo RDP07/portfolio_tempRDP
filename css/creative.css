@@ -80,7 +80,6 @@ aside {
 
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Press Start 2P', cursive;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -123,8 +122,9 @@ aside {
 .navbar-default .nav > li.active > a:focus {
   color: #f235d5 !important;
   font-weight: 900;
-  font-size: 150% !important;
+  font-size: 140% !important;
   background-color: #33F9FF;
+  border-radius: 5%;
 }
 
 .navbar-default .nav > li.active > a:hover,
@@ -165,7 +165,7 @@ header .header-content .header-content-inner h1 {
   text-align: center;
   padding-top: 5%;
   font-size: 300%;
-  text-shadow: 1px 1px #f235d5;
+  text-shadow: 1px 1px #33F9FF;
   margin: 30px auto;
 }
 
@@ -174,7 +174,6 @@ header .header-content .header-content-inner p {
   font-weight: 300;
   font-size: 120%;
   margin-bottom: 50px;
-  text-shadow: 0.75px 0.75px #33F9FF;
 }
 
 header .header-content .header-content-inner .social-icon {
@@ -440,16 +439,22 @@ body {
 @media (max-width: 609px) {
   header .header-content .header-content-inner h1 {
     padding-top: 10%;
-    font-size: 100%;
+    font-size: 200%;
   }
   header .header-content .header-content-inner p {
     font-size: 90%;
   }
   header .header-content .header-content-inner .social-icon {
     font-size: 500%;
+    margin: 0 auto;
   }
   .portfolio-box {
     max-height: 200px;
+  }
+
+  header, #portfolio, #contact {
+    height: auto;
+    padding: 0;
   }
 }
 
