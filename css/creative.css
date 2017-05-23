@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
 html, body {
   height: 100%;
   width: 100%;
@@ -14,7 +15,9 @@ body {
 }
 
 header, #about {
-  height: 100vh;
+  min-height: 100%;
+  margin: auto;
+  padding: auto;
 }
 
 hr {
@@ -28,7 +31,7 @@ hr.light {
 }
 
 a {
-  -webkit-transition: all 0.35s;
+  -webkit-transition: all 0.35s
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-weight: bold;
@@ -62,8 +65,12 @@ p {
 
 .text-faded {
   color: white;
-  text-shadow: 1px 1px rgba(0, 16, 255, 1);
-  z-index: 999;
+  text-shadow: 1px 1px black;
+  z-index: 2;
+  position: relative;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  
 }
 section {
   padding: 100px 0;
@@ -195,7 +202,6 @@ header .header-content .header-content-inner .social-icon:hover {
 
 #about {
   background: url(../img/chicago.jpg) no-repeat center center / cover;
-  height: 100vh;
 }
 
 .container {
@@ -241,7 +247,6 @@ header .header-content .header-content-inner .social-icon:hover {
 
 .portfolio-box:hover,
 .portfolio-box:focus:hover {
-  margin:5%;
   margin: auto;
   transform: scale(1.1);
   transform: translate3d(-10%);
@@ -299,7 +304,13 @@ header .header-content .header-content-inner .social-icon:hover {
   margin: 0 auto 20px;
 }
 .text-primary {
+  font-size: 130%;
+  border-radius: 2%;
+  max-width: 65%;
   color: #000000;
+  text-shadow: 1px 1px #FFFFFF;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .no-gutter > [class*='col-'] {
@@ -308,8 +319,10 @@ header .header-content .header-content-inner .social-icon:hover {
 }
 .btn-default {
   color: #222222;
-  background-color: white;
-  border-color: white;
+  text-shadow: 1px 1px white;
+  background-color: grey;
+  border-color: black;
+  border: 10px;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -323,11 +336,13 @@ header .header-content .header-content-inner .social-icon:hover {
   color: #222222;
   background-color: #f2f2f2;
   border-color: #ededed;
+
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none;
+
 }
 .btn-default.disabled,
 .btn-default[disabled],
@@ -349,10 +364,12 @@ fieldset[disabled] .btn-default:active,
 fieldset[disabled] .btn-default.active {
   background-color: white;
   border-color: white;
+
 }
 .btn-default .badge {
   color: black;
   background-color: #222222;
+
 }
 .btn-primary {
   color: black;
@@ -585,5 +602,3 @@ body {
     max-height: 300px;
   }
 }
-
-
