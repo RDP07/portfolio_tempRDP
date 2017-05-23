@@ -68,10 +68,10 @@ p {
   text-shadow: 1px 1px black;
   z-index: 2;
   position: relative;
-  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
-  
+  -webkit-backdrop-filter: blur(4px);
 }
+
 section {
   padding: 100px 0;
 }
@@ -309,7 +309,7 @@ header .header-content .header-content-inner .social-icon:hover {
   max-width: 65%;
   color: #000000;
   text-shadow: 1px 1px #FFFFFF;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
