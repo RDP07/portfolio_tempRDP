@@ -10,6 +10,10 @@ html, body {
   width: 100%;
 }
 
+.header-content, .row, #portfolio, #contact {
+  margin: 0 auto;
+}
+
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -490,10 +494,6 @@ body {
     max-width: 100%;
     margin: 50px auto 0;
   }
-
-  .portfolio-box {
-    max-height: 250px;
-  }
 }
 
 @media (min-width: 767px) {
@@ -517,7 +517,6 @@ body {
     font-size: 13px;
     text-shadow: 1px 1px #f235d5;
   }
-
   #contact div p {
     margin-top: 0;
     padding-top: 0;
@@ -585,10 +584,18 @@ body {
   }
 }
 
+@media (max-width: 1199px) {
+  .portfolio-box img {
+    max-height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 @media (min-width: 1200px) {
   .header-content, .row, #portfolio, #contact {
     width: 1200px;
-    margin: 0 auto;
   }
 
    .service-box {
