@@ -67,14 +67,14 @@ p {
   margin-bottom: 20px;
 }
 
-.text-faded {
+/*.text-faded {
   color: white;
   text-shadow: 1px 1px black;
   z-index: 2;
   position: relative;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-}
+}*/
 
 section {
   padding: 100px 0;
@@ -233,8 +233,6 @@ header .header-content .header-content-inner .social-icon:hover {
   height: 110px;
   width: 635px;
   z-index: 0;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
   padding: 10px;
 }
 #bio-text p {
@@ -320,14 +318,18 @@ header .header-content .header-content-inner .social-icon:hover {
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
+
+#contact {
+  padding-top: 0;
+  padding-bottom: 15%;
+}
+
 .text-primary {
   font-size: 130%;
   border-radius: 2%;
-  max-width: 65%;
+  max-width: 75%;
   color: #000000;
   text-shadow: 1px 1px #FFFFFF;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 }
 
 .no-gutter > [class*='col-'] {
