@@ -164,7 +164,7 @@ aside {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../img/chicago-outline.png') repeat-x bottom;
+  background: url('../img/chicago-outline.png') repeat-x left bottom;
 }
 
 
@@ -485,10 +485,15 @@ body {
   .portfolio-box {
     max-height: 200px;
   }
-
   header, #portfolio, #contact {
     height: auto;
     padding: 0;
+  }
+
+  #chicago-outline{
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+    background-position: left bottom;
   }
 }
 
@@ -597,6 +602,14 @@ body {
   }
 }
 
+@media (max-width: 927px) {
+  #chicago-outline{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: left bottom;
+  }
+}
+
 @media (max-width: 1199px) {
   .portfolio-box img {
     max-height: auto;
@@ -621,4 +634,6 @@ body {
    .portfolio-box {
     max-height: 300px;
   }
+
+
 }
