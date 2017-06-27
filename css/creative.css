@@ -253,11 +253,25 @@ header .header-content .header-content-inner .social-icon:hover {
   position: relative;
   display: block;
   width: 100%;
-  height: 150%;
+  max-height: 320px;
   margin: 0 auto;
+  padding: 0;
   overflow: hidden;
 }
 
+.col-md-6, .col-lg-6 {
+  padding: 0;
+}
+
+.portfolio-box img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-btn img {
+  margin: 0;
+}
 
 
 .portfolio-box:hover,
@@ -307,13 +321,7 @@ header .header-content .header-content-inner .social-icon:hover {
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-.portfolio-box:focus {
-  outline: none;
-}
 
-.popup-gallery:focus {
-  width: 100vw;
-}
 
 .call-to-action h2 {
   margin: 0 auto 20px;
@@ -472,7 +480,11 @@ body {
 }
 
 
+
 @media (max-width: 609px) {
+  header, #about, #portfolio, #contact {
+    width: 100%;
+  }
   header .header-content .header-content-inner h1 {
     padding-top: 10%;
     font-size: 200%;
@@ -484,12 +496,14 @@ body {
     font-size: 500%;
     margin: 0 auto;
   }
-  .portfolio-box {
-    max-height: 200px;
-  }
+
   header, #portfolio, #contact {
     height: auto;
     padding: 0;
+    margin: 0;
+  }
+  #contact {
+    font-size: 90%;
   }
 
   #chicago-outline{
@@ -598,10 +612,6 @@ body {
     color: black;
     font-size: 150%;
   }
-
-  .portfolio-box {
-    max-height: 240px;
-  }
 }
 
 @media (max-width: 927px) {
@@ -612,18 +622,16 @@ body {
   }
 }
 
-@media (max-width: 1199px) {
-  .portfolio-box img {
-    max-height: auto;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+@media (min-width: 992px) and (max-width: 1132px) {
+  .portfolio-box {
+    max-height: 250px;
   }
 }
 
 @media (min-width: 1200px) {
   .header-content, .row, #portfolio, #contact {
     width: 1200px;
+    margin: 0 auto;
   }
 
    .service-box {
@@ -633,9 +641,89 @@ body {
   .container {
     width: 100%;
   }
-   .portfolio-box {
-    max-height: 300px;
-  }
+}
+
+/* Modal button */
+.modal-btn {
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
 
 
+/* Modal */
+.modal {
+  position: fixed;
+  margin: 7%;
+  height: auto;
+}
+/* Modal Content */
+.modal-content {
+  top: 0px;
+  margin: 0 auto;
+  text-shadow: 1px 1px gray;
+}
+
+.modal-header {
+  background-color: #111;
+  width: 100%;
+  line-height: 10px;
+  padding: 2px 15px;
+  border: none;
+}
+.modal-content .close {
+  position: absolute;
+  color: white;
+  right: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .3s;
+  font-size: 30px;
+}
+
+/* Modal Body */
+.modal-body {
+  text-align: center;
+  background: gray;
+}
+
+.modal-body > img {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-open {
+  height: 100vh;
+}
+
+/* Modal Footer */
+.modal-footer {
+  background-color: #111;
+  width: 100%;
+  line-height: 60px;
+  padding: 5px 15px;
+  border:none;
+  text-shadow: 1px 1px gray;
+}
+.modal-header h3,
+.modal-footer a {
+  color: #fff;
+}
+
+.source-code {
+  float: left;
+  margin-left: 5%;
+}
+
+.live-code {
+  float: right;
+  margin-right: 5%;
 }
