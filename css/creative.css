@@ -198,6 +198,8 @@ header .header-content .header-content-inner p {
   font-weight: 300;
   font-size: 120%;
   margin-bottom: 50px;
+  text-shadow: 1px 1px #FFF;
+  font-weight: bold
 }
 
 header .header-content .header-content-inner .social-icon {
