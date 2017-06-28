@@ -39,7 +39,6 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-weight: bold;
-  text-shadow: 1px 1px #000000;
 }
 
 .bio-pic  {
@@ -198,6 +197,8 @@ header .header-content .header-content-inner p {
   font-weight: 300;
   font-size: 120%;
   margin-bottom: 50px;
+  text-shadow: 1px 1px #FFF;
+  font-weight: bold
 }
 
 header .header-content .header-content-inner .social-icon {
@@ -331,6 +332,10 @@ header .header-content .header-content-inner .social-icon:hover {
 #contact {
   padding-top: 0;
   padding-bottom: 15%;
+}
+
+#contact a {
+  text-shadow: 1px 1px #000000;
 }
 
 .text-primary {
